@@ -14,3 +14,12 @@ SQLAlchemy==2.0.20           # Database ORM if you plan to use a database for us
 psycopg2-binary==2.9.6       # PostgreSQL adapter if you use Postgres (optional)
 setuptools>=42
 wheel
+setuptools>=65.0.0
+wheel>=0.38.0
+pip>=23.0
+
+flask
+requests
+beautifulsoup4
+pandas
+gunicorn
