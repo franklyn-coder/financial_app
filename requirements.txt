@@ -1,5 +1,7 @@
 Flask==2.3.2                 # Web framework for building the app
 pip>=23.0
+setuptools>=65.0.0
+wheel>=0.38.0
 requests==2.31.0             # HTTP requests for scraping APIs and sites
 beautifulsoup4==4.12.2       # Parsing HTML data from web scraping
 pandas==2.0.3                # Data analysis and handling financial data
@@ -13,10 +15,8 @@ gunicorn==20.1.0             # Production server for deploying Flask app (use if
 pytest==7.4.0                # For testing your code (optional but recommended)
 SQLAlchemy==2.0.20           # Database ORM if you plan to use a database for users/data
 psycopg2-binary==2.9.6       # PostgreSQL adapter if you use Postgres (optional)
-setuptools>=42
-wheel
-setuptools>=65.0.0
-wheel>=0.38.0
+
+
 
 
 flask
