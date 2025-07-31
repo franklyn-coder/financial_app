@@ -1,26 +1,9 @@
-Flask==2.3.2                 # Web framework for building the app
 pip>=23.0
 setuptools>=65.0.0
 wheel>=0.38.0
-requests==2.31.0             # HTTP requests for scraping APIs and sites
-beautifulsoup4==4.12.2       # Parsing HTML data from web scraping
-pandas==2.0.3                # Data analysis and handling financial data
-numpy==1.25.2 --prefer-binary # Numerical operations used by pandas and calculations
-matplotlib==3.7.1            # Plotting graphs and visualizations
-plotly==5.15.0               # Interactive charts for better UI/UX visuals
-flask-login==0.6.2           # User login/session management
-flask-wtf==1.1.1             # Forms and CSRF protection for login/signup pages
-python-dotenv==1.0.0         # Manage environment variables (API keys, secrets)
-gunicorn==20.1.0             # Production server for deploying Flask app (use if deploying on Linux servers)
-pytest==7.4.0                # For testing your code (optional but recommended)
-SQLAlchemy==2.0.20           # Database ORM if you plan to use a database for users/data
-psycopg2-binary==2.9.6       # PostgreSQL adapter if you use Postgres (optional)
-
-
-
-
 flask
+gunicorn
 requests
 beautifulsoup4
 pandas
-gunicorn
+numpy==1.25.2
